@@ -15,20 +15,20 @@ export const BottomCTABar: React.FC<BottomCTABarProps> = ({ onOpenBooking }) => 
       <div className="max-w-xl mx-auto pointer-events-auto">
         <div className="bg-[#0A101E]/95 backdrop-blur-xl border-2 border-amber-500/40 rounded-2xl p-2 sm:p-2.5 shadow-[0_10px_35px_rgba(0,0,0,0.8)] glow-orange flex items-center justify-between gap-2 sm:gap-3">
           
-          {/* CTA 1: Direct Call Button */}
+          {/* CTA 1: Direct Call Button (Signature Orange Gradient) */}
           <a
             href="tel:+919080082942"
-            className="flex-1 flex items-center justify-center gap-2 py-2.5 px-3 bg-slate-900/90 hover:bg-slate-800 border border-amber-500/30 hover:border-amber-500 rounded-xl text-amber-400 font-bold transition-all active:scale-95 shadow-sm"
+            className="flex-1 flex items-center justify-center gap-2 py-2.5 px-3 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-400 hover:to-orange-400 border border-amber-300/40 rounded-xl text-slate-950 font-bold transition-all active:scale-95 shadow-md shadow-orange-500/25"
             title="Call Taxi Kaaran Dispatch"
           >
-            <div className="w-6 h-6 rounded-lg bg-amber-500/20 flex items-center justify-center text-amber-400 shrink-0">
-              <Phone className="w-3.5 h-3.5 animate-pulse" />
+            <div className="w-6 h-6 rounded-lg bg-slate-950/20 flex items-center justify-center text-slate-950 shrink-0">
+              <Phone className="w-3.5 h-3.5 fill-slate-950 stroke-[2.5]" />
             </div>
             <div className="flex flex-col text-left">
-              <span className="text-[9px] uppercase tracking-wider text-slate-400 font-medium leading-none">
+              <span className="text-[9px] uppercase tracking-wider text-slate-900 font-extrabold leading-none">
                 Call Now
               </span>
-              <span className="text-xs sm:text-sm font-black font-mono text-white leading-tight">
+              <span className="text-xs sm:text-sm font-black font-mono text-slate-950 leading-tight">
                 90800 82942
               </span>
             </div>

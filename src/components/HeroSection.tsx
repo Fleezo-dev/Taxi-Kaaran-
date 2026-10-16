@@ -114,9 +114,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 className="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700"
                 loading="eager"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#090D16]/80 via-[#090D16]/15 to-transparent pointer-events-none"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-[#090D16]/50 via-transparent to-transparent pointer-events-none"></div>
               <div className="relative z-10 p-4 sm:p-5 flex items-center justify-between w-full">
-                <div className="text-xs sm:text-sm text-amber-300 font-mono font-bold tracking-wider uppercase flex items-center gap-2 bg-[#090D16]/70 backdrop-blur-md px-3 py-1.5 rounded-lg border border-amber-500/20">
+                <div className="text-xs sm:text-sm text-amber-300 font-mono font-bold tracking-wider uppercase flex items-center gap-2 bg-[#090D16]/80 backdrop-blur-md px-3 py-1.5 rounded-lg border border-amber-500/20 shadow-lg">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse inline-block"></span>
                   Reliable Rides Across Coimbatore & Western Ghats
                 </div>

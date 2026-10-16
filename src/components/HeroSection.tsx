@@ -107,19 +107,16 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             </div>
 
             {/* Premium Scenic Visual Banner (Modern Indian Taxi on Scenic Road) */}
-            <div className="relative w-full rounded-2xl overflow-hidden border border-amber-500/30 bg-slate-950 shadow-2xl h-44 sm:h-52 flex items-end">
+            <div className="relative w-full rounded-2xl overflow-hidden border border-amber-500/30 bg-slate-950 shadow-2xl min-h-[220px] sm:min-h-[260px] aspect-[16/9] flex items-end group">
               <img 
                 src="/taxi-kaaran-night-hero.png" 
                 alt="Taxi Kaaran sedan travelling through scenic Western Ghats road at night"
-                className="absolute inset-0 w-full h-full object-cover object-center"
-                onError={(e) => {
-                  // Fallback to stylized dark gradient background
-                  e.currentTarget.style.display = 'none';
-                }}
+                className="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700"
+                loading="eager"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#090D16] via-[#090D16]/60 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-[#090D16]/80 via-[#090D16]/15 to-transparent pointer-events-none"></div>
               <div className="relative z-10 p-4 sm:p-5 flex items-center justify-between w-full">
-                <div className="text-xs text-amber-300 font-mono font-bold tracking-wider uppercase flex items-center gap-2">
+                <div className="text-xs sm:text-sm text-amber-300 font-mono font-bold tracking-wider uppercase flex items-center gap-2 bg-[#090D16]/70 backdrop-blur-md px-3 py-1.5 rounded-lg border border-amber-500/20">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse inline-block"></span>
                   Reliable Rides Across Coimbatore & Western Ghats
                 </div>

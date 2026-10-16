@@ -109,7 +109,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             {/* Premium Scenic Visual Banner (Modern Indian Taxi on Scenic Road) */}
             <div className="relative w-full rounded-2xl overflow-hidden border border-amber-500/30 bg-slate-950 shadow-2xl min-h-[220px] sm:min-h-[260px] aspect-[16/9] flex items-end group">
               <img 
-                src="/taxi-kaaran-night-hero.png" 
+                src="/taxi-kaaran-night-hero.png?v=v3" 
                 alt="Taxi Kaaran sedan travelling through scenic Western Ghats road at night"
                 className="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700"
                 loading="eager"

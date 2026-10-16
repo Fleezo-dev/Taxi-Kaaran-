@@ -1,0 +1,6 @@
+{
+  "name": "Taxi Kaaran - Coimbatore Taxi & Outstation Cab Service",
+  "description": "Book safe, reliable and fixed-fare cabs in Coimbatore, Ooty, Kodaikanal, Isha Yoga Center, Valparai & South India. 24/7 support & verified drivers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
